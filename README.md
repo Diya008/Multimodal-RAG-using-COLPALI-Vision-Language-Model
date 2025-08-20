@@ -18,3 +18,11 @@ INSTALLATION FOR SYSTEMS WITH GPU:Run it in Colab using T4 GPU
 pip install byaldi
 !sudo apt-get install -y poppler-utils
 !pip install -q git+https://github.com/huggingface/transformers.git qwen-vl-utils flash-attn optimum auto-gptq bitsandbytes
+
+HOW TO RUN:
+Step 1: Install the necessary libraries.
+Step 2: Create HF Token and API KEY
+Step 3. Run the main.py
+Step 4. Run the index.py - it converts the PDF and stores it an folder. We can use this folder later in the future instead of indexing again.
+Step 5. Run load_once.py - it loads the saved index folder once for a streamlit session.
+Step 6. 
