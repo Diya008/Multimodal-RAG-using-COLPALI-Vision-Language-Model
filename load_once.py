@@ -5,10 +5,11 @@ import streamlit as st
 @st.cache_resource
 def load_rag_model():
     return RAGMultiModalModel.from_index(
-        index_path="information",       # folder name of your index
+        index_path="data",       # folder name of your index (refer index.py file)
         index_root=".byaldi",    # root folder where the index is stored
         device="cpu",            # or "cuda" if GPU is available
         verbose=1
     )
+
 
 RAG = load_rag_model()
