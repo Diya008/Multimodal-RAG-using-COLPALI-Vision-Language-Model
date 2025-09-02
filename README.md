@@ -1,7 +1,3 @@
-Here’s a well-structured **`README.md`** for your GitHub repository:  
-
-***
-
 # Multimodal RAG using COLPALI Vision-Language Model
 
 This repository provides the implementation of a **Multimodal Retrieval-Augmented Generation (RAG) Chatbot** that can ingest a **PDF containing text, tables, and images**.  
